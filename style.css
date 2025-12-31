@@ -32,3 +32,10 @@ body{
 .confetti{position:fixed;pointer-events:none;z-index:9999;top:0;left:0;width:8px;height:12px;opacity:0.95;transform-origin:center}
 
 @media (max-width:520px){.big{font-size:1.4rem}.heart{font-size:2.5rem}}
+
+/* image helpers */
+.hero-row{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;justify-content:center}
+.hero-art{max-width:320px;width:38%;min-width:160px}
+.inline-img{display:block;margin:0 auto 0.6rem;max-width:280px;width:45%}
+.inline-img.small{width:90px}
+
